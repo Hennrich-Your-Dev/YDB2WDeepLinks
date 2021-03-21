@@ -7,6 +7,6 @@
 
 import Foundation
 
-public enum YDDeepLinks {
-  public static let lasaStore = "acom://lasa-store"
+public enum YDDeepLinks: String {
+  case lasaStore = "acom://lasa-store"
 }
