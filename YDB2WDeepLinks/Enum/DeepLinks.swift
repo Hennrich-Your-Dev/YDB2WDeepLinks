@@ -9,4 +9,5 @@ import Foundation
 
 public enum YDDeepLinks: String {
   case lasaStore = "acom://lasa-store"
+  case lasaBooklet = "acom://navigation/hotsite/encarte_lojas_americanas?chave=modo_loja_encarte"
 }
