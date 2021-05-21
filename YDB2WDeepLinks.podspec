@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "YDB2WDeepLinks"
-  spec.version      = "1.0.4"
+  spec.version      = "1.0.5"
   spec.summary      = "A short description of YDB2WDeepLinks."
   spec.homepage     = "http://yourdev/YDB2WDeepLinks"
 
@@ -20,4 +20,6 @@ Pod::Spec.new do |spec|
   spec.source           = { :git => "https://github.com/Hennrich-Your-Dev/YDB2WDeepLinks.git", :tag => "#{spec.version}" }
 
   spec.source_files     = "YDB2WDeepLinks/**/*.{h,m,swift}"
+
+  spec.dependency "YDExtensions", "~> 1.0.42"
 end

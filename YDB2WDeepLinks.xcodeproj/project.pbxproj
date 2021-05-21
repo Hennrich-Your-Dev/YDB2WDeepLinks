@@ -10,6 +10,7 @@
 		172F8FB99F5D45AA7F294F92 /* Pods_YDB2WDeepLinks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80CB1AB4F5146A2CEF6A6D02 /* Pods_YDB2WDeepLinks.framework */; };
 		C121C2B92607D56500683723 /* YDB2WDeepLinks.h in Headers */ = {isa = PBXBuildFile; fileRef = C121C2B72607D56500683723 /* YDB2WDeepLinks.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C121C2C42607E03400683723 /* DeepLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = C121C2C32607E03400683723 /* DeepLinks.swift */; };
+		C124E4F2265801A3008F6E08 /* YDDeepLinksParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C124E4F1265801A3008F6E08 /* YDDeepLinksParser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		C121C2B72607D56500683723 /* YDB2WDeepLinks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDB2WDeepLinks.h; sourceTree = "<group>"; };
 		C121C2B82607D56500683723 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C121C2C32607E03400683723 /* DeepLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinks.swift; sourceTree = "<group>"; };
+		C124E4F1265801A3008F6E08 /* YDDeepLinksParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDDeepLinksParser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 		C121C2B62607D56500683723 /* YDB2WDeepLinks */ = {
 			isa = PBXGroup;
 			children = (
+				C124E4F02658017D008F6E08 /* Parse */,
 				C121C2C22607DF7900683723 /* Enum */,
 				C121C2B72607D56500683723 /* YDB2WDeepLinks.h */,
 				C121C2B82607D56500683723 /* Info.plist */,
@@ -85,6 +88,14 @@
 				C121C2C32607E03400683723 /* DeepLinks.swift */,
 			);
 			path = Enum;
+			sourceTree = "<group>";
+		};
+		C124E4F02658017D008F6E08 /* Parse */ = {
+			isa = PBXGroup;
+			children = (
+				C124E4F1265801A3008F6E08 /* YDDeepLinksParser.swift */,
+			);
+			path = Parse;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C121C2C42607E03400683723 /* DeepLinks.swift in Sources */,
+				C124E4F2265801A3008F6E08 /* YDDeepLinksParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
