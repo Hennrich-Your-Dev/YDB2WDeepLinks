@@ -12,5 +12,5 @@ target 'YDB2WDeepLinks' do
   use_frameworks!
 
   # Pods for YDB2WDeepLinks
-  pod "YDExtensions", "~> 1.0.42"
+  pod "YDExtensions", "~> 1.4.0"
 end

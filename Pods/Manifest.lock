@@ -14,12 +14,12 @@ PODS:
   - libwebp/mux (1.2.0):
     - libwebp/demux
   - libwebp/webp (1.2.0)
-  - YDExtensions (1.0.59):
+  - YDExtensions (1.4.0):
     - Kingfisher (~> 5.0)
     - KingfisherWebP (= 1.0.0)
 
 DEPENDENCIES:
-  - YDExtensions (~> 1.0.42)
+  - YDExtensions (~> 1.4.0)
 
 SPEC REPOS:
   "git@github.com:Hennrich-Your-Dev/YourDev-Pods.git":
@@ -33,8 +33,8 @@ SPEC CHECKSUMS:
   Kingfisher: a3c03d702433fa6cfedabb2bddbe076fb8f2e902
   KingfisherWebP: b1ed1dbc5e52547c5bf5f583dd5c46346f97320f
   libwebp: e90b9c01d99205d03b6bb8f2c8c415e5a4ef66f0
-  YDExtensions: 086d64e8aaa8476de4be32c57ee4be06c1a01f5a
+  YDExtensions: d2db8d24ca8bba7833f8dfed0d32a743c7a68f36
 
-PODFILE CHECKSUM: 9de709d363f93f7e68eb313736e82aeb500c2f44
+PODFILE CHECKSUM: 8abdc067df5f936c260ac7cbe4897bc4edd23354
 
 COCOAPODS: 1.10.1
