@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "YDB2WDeepLinks"
-  spec.version      = "1.3.3"
+  spec.version      = "1.4.3"
   spec.summary      = "A short description of YDB2WDeepLinks."
   spec.homepage     = "http://yourdev/YDB2WDeepLinks"
 
@@ -21,5 +21,5 @@ Pod::Spec.new do |spec|
 
   spec.source_files     = "YDB2WDeepLinks/**/*.{h,m,swift}"
 
-  spec.dependency "YDExtensions", "~> 1.3.0"
+  spec.dependency "YDExtensions", "~> 1.4.0"
 end
