@@ -13,5 +13,5 @@ public enum YDDeepLinks: String {
   case lasaBooklet = "acom://navigation/hotsite/nossas-lojas-encarte"
   case productClick = "acom://produto/%@"
 
-  case facebookHelp = "https://www.facebook.com/lojasamericanas"
+  case facebookHelp = "https://www.messenger.com/t/americanascom"
 }
