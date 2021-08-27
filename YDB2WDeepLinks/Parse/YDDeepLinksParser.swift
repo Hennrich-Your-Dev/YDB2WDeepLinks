@@ -6,7 +6,6 @@
 //
 
 import Foundation
-
 import YDExtensions
 
 public enum YDDeepLinksParser {
@@ -46,4 +45,6 @@ public enum YDDeepLinksParserTypes: String {
 
 public enum YDDeepLinksParserParameters: String {
   case storeId = "storeId"
+  
+  case forceOpen
 }

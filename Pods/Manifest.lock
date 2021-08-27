@@ -14,7 +14,7 @@ PODS:
   - libwebp/mux (1.2.0):
     - libwebp/demux
   - libwebp/webp (1.2.0)
-  - YDExtensions (1.4.0):
+  - YDExtensions (1.4.3):
     - Kingfisher (~> 5.0)
     - KingfisherWebP (= 1.0.0)
 
@@ -33,8 +33,8 @@ SPEC CHECKSUMS:
   Kingfisher: a3c03d702433fa6cfedabb2bddbe076fb8f2e902
   KingfisherWebP: b1ed1dbc5e52547c5bf5f583dd5c46346f97320f
   libwebp: e90b9c01d99205d03b6bb8f2c8c415e5a4ef66f0
-  YDExtensions: d2db8d24ca8bba7833f8dfed0d32a743c7a68f36
+  YDExtensions: 9b216106fdbd2df346475187d6e06204afae1bc6
 
 PODFILE CHECKSUM: 8abdc067df5f936c260ac7cbe4897bc4edd23354
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.10.2
